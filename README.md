@@ -3,13 +3,13 @@ RCopy uses curl to copy files from a remote server and store them to a local dir
 Rcopy.php is a working example that implements the _downloadFile_ class (**Rcopy-downloadFile-class.php**).
 ##example using **Rcopy-downloadFile-class.php**.  
 
-` require_once("Rcopy-downloadFile-class.php");
+``` require_once("Rcopy-downloadFile-class.php");
 
 $save = new downloadFile();
 
 $returnData = $save->saveFile($_REQUEST['url'],$_REQUEST['folder']);
 
-`
+```
 
 In the example above **$returnData[]** is an array that contains the data returned by the script
 
