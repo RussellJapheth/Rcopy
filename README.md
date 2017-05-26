@@ -5,7 +5,9 @@ Rcopy.php is a working example that implements the _downloadFile_ class (**Rcopy
 
 ## example using **Rcopy-downloadFile-class.php**.  
 
-``` 
+
+```php
+<?php
 
 require_once("Rcopy-downloadFile-class.php");
 
