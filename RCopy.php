@@ -117,7 +117,7 @@ EOD;
 fwrite($myfile, "\r\n".$txt);
 fclose($myfile); echo "the file has been copied";}
 ?>
-<form action="RCopy.php" method="get">
+<form action="RCopy.php" method="post">
 <input type="url" placeholder="url" name="url" required/>
 <input type="text" placeholder="folder" name="folder" required/>
 <input type="submit" value="copy" />
