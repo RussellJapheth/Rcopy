@@ -8,21 +8,31 @@ Rcopy.php is a working example that implements the _downloadFile_ class (**Rcopy
 
 ```php
 <?php
-
 require_once("Rcopy-downloadFile-class.php");
 
 $save = new downloadFile();
 
-$returnData = $save->saveFile($_REQUEST['url'],$_REQUEST['folder']);
+$filesize = $save->getSize($url);
+$returnData = $save->saveFile($url,$folder);
+$save->logDownload($returnData,'logs.php.inc');
+
+print_r($returnData);
+print_r($filesize);
 
 ```
 
 In the example above **$returnData[]** is an array that contains the data returned by the script
 
-> `$returnData[0]` returns true or false depending on whether the `curl_exec()` returns `true or false`
+> `$returnData[0]` is set to true or false depending on whether the `curl_exec()` returns `true or false`
 
-> `$returnData[1]` returns the name of the `directory` where the file was stored
+> `$returnData[1]` contains the name of the `directory` where the file was stored
 
-> `$returnData[2]` returns the url that was copied
+> `$returnData[2]` contains the url that was copied
 
-> `$returnData[3]` returns the name of the stored file
+> `$returnData[3]` contains the name of the stored file
+
+> `$returnData[4]` contains the path to the new file 
+
+**$save->getSize($url)** returns the size of the file in bytes
+
+**$save->logDownload($returnData,$logFileName)** creates a php array containing the url and the folder 
