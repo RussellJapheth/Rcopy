@@ -35,4 +35,4 @@ In the example above **$returnData[]** is an array that contains the data return
 
 **$save->getSize($url)** returns the size of the file in bytes
 
-**$save->logDownload($returnData,$logFileName)** creates a php array containing the url and the folder 
+**$save->logDownload($returnData,$logFileName)** creates a php array containing the url and the folder in the file `$logFileName`
