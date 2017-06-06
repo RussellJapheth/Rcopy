@@ -13,7 +13,7 @@
 @licence:: THIS SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND INCLUDING BUT NOT LIMITED THE    	|||																									
 	WARRANTY (IMPLIED OR OTHERWISE) OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.				    |||																			   																									
 	YOU ARE FREE TO MODIFY AND OR USE THIS SOFTWARE FOR OPEN SOURCE AND COMMERCIAL PROJECTS.        		|||																			   																									
-	NO ATTRIBUTION IS REQUIRED BUT A LINK-BACK WOULD BE NICE.										   		|||																			   																									
+	NO ATTRIBUTION IS REQUIRED BUT A @mention WOULD BE NICE.										   		|||																			   																									
 ============================================================================================================|||	
 */
 class downloadFile{
