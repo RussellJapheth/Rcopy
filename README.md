@@ -19,6 +19,7 @@ $ php /path/to/RcopyCLI.php URL  fileName
 $ php RcopyCLI.php http://example.com/file.jpeg saved.jpeg
 
 ```
+##### **_To resume or retry a download, just enter the same url and file name as before_** 
 ___
 
 #### Example using `Rcopy-downloadFile-class.php`.  
