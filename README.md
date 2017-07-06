@@ -5,6 +5,8 @@ Rcopy.php is a working example that implements the _downloadFile_ class (**Rcopy
 
 RcopyCLI.php is a comand line version and it includes realtime progress reporting.
 
+___
+
 **The format for using the CLI version is as follows:**
 
 ```bash
@@ -17,7 +19,7 @@ $ php /path/to/RcopyCLI.php URL  fileName
 $ php RcopyCLI.php http://example.com/file.jpeg saved.jpeg
 
 ```
-
+___
 
 #### Example using `Rcopy-downloadFile-class.php`.  
 
