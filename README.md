@@ -19,7 +19,7 @@ $ php RcopyCLI.php http://example.com/file.jpeg saved.jpeg
 ```
 
 
-#### example using `Rcopy-downloadFile-class.php`.  
+#### Example using `Rcopy-downloadFile-class.php`.  
 
 
 ```php
