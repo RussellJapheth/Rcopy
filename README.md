@@ -3,7 +3,7 @@ RCopy uses curl to copy files from a remote server and store them to a local dir
 
 Rcopy.php is a working example that implements the _downloadFile_ class (**Rcopy-downloadFile-class.php**).
 
-RcopyCLI.php is a comand line version and it includes realtime progress reporting.
+RcopyCLI.php is a comand line version and it supports realtime progress reporting and resumable download.
 
 ___
 
